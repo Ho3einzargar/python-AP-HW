@@ -1,6 +1,6 @@
 def average_tuple(two_dimentional_tuple):
     '''write an appropriate docstring here'''
-    return tuple(map(lambda x : sum(x)/len(x), tuple(zip(*two_dimentional_tuple))))
+    return tuple(map(lambda x : sum(x)/len(x), list(zip(*two_dimentional_tuple))))
     # write the rest of definition bellow
 
 
