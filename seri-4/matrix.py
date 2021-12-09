@@ -47,7 +47,7 @@ class Matrix():
         |                                                         |
         |----------------------------------------------------------
         |                                                         |
-        |   1 - initial Matrix class bt row & col count & matrix  |
+        |   1 - initial Matrix class by row & col count & matrix  |
         |                                                         |
         |   2 -  make unit matrix                                 |
         |                                                         |

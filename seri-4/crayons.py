@@ -1,8 +1,32 @@
+# import requred module
 from datetime import datetime
 from math import sin, cos, sqrt, atan2, radians
 import csv
 
 class MedadRangi():
+
+    """
+
+        |---------------------------------------------------------------------------
+        |                                                                          |
+        |     MedadRangi Class                                                     |
+        |                                                                          |
+        |---------------------------------------------------------------------------
+        |                                                                          |
+        |   1 - initial MedadRangi by name price count builtCountry factoryName    |
+        |                                                                          |
+        |   2 - get final price of materail                                        |
+        |                                                                          |
+        |   3 - say welcome base on clock                                          |
+        |                                                                          |
+        |   4 - calculate distance between medadrangi and customer                 |
+        |                                                                          |
+        |   5 - load csv file                                                      |
+        |                                                                          |
+        ----------------------------------------------------------------------------
+
+    """
+
     def __init__(self, name, price, count, builtCountry, factoryName):
         self.coordinate = (35.74317403843504, 51.50185488303431)
         self.discount = 10
@@ -63,4 +87,4 @@ class MedadRangi():
 
 x = MedadRangi('pencil', 4500, 5, 'iran', 'kale')
 
-x.load_csv()
+# x.load_csv()
