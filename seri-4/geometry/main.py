@@ -19,22 +19,22 @@ while(command != 0):
         shapeInfo = input('enter shape name and argument:').split(' ')
 
         if shapeInfo[0] == 'Circle':
-            newShape = Circle(shapeInfo[1])    
+            newShape = Circle(int(shapeInfo[1]))    
 
         if shapeInfo[0] == 'EquilateralTriangle':
-            newShape = EquilateralTriangle(shapeInfo[1])    
+            newShape = EquilateralTriangle(int(shapeInfo[1]))    
 
         if shapeInfo[0] == 'Rectangle':
-            newShape = Rectangle(shapeInfo[1], shapeInfo[2])    
+            newShape = Rectangle(int(shapeInfo[1]), int(shapeInfo[2]))    
 
         if shapeInfo[0] == 'RegularPantagon':
-            newShape = RegularPantagon(shapeInfo[1])    
+            newShape = RegularPantagon(int(shapeInfo[1]))    
 
         if shapeInfo[0] == 'Square':
-            newShape = Square(shapeInfo[1])    
+            newShape = Square(int(shapeInfo[1]))    
 
         if shapeInfo[0] == 'Triangle':
-            newShape = Triangle(shapeInfo[1], shapeInfo[2], shapeInfo[3])    
+            newShape = Triangle(int(shapeInfo[1]), int(shapeInfo[2]), int(shapeInfo[3]))    
 
 
         ShapeList.add_shape(newShape)
