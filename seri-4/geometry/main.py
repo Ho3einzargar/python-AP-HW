@@ -1,5 +1,7 @@
+# import classes rom geometery file
 from geometry import Shape, ShapeList, Circle, EquilateralTriangle, Rectangle, RegularPantagon, Square, Triangle
 
+# command list
 print('Learn Geometry.')
 print('\tWhat do you want to do?')
 print('\t(1) Add new shape')
@@ -9,9 +11,12 @@ print('\t(4) Show shape with the largest area')
 print('\t(5) Show formulas')
 print('\t(0) Exit program')
 
+# new shape list class
 ShapeList = ShapeList();
 
 command = -1
+
+# get commands from user
 while(command != 0):
     command = int(input())
     if command == 1:
@@ -63,7 +68,5 @@ while(command != 0):
 
         if shapeInfo == 'Triangle':
             print(Triangle)
-
-
 
     
